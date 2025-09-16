@@ -175,9 +175,16 @@ button:hover {
 #works h2{
   text-align: center;
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   color: #333;
   margin-top: 30px;
+
+}
+hr {
+  width: 100px; 
+  border: 2px solid tomato;
+  margin: auto;
+  margin-bottom: 35px;
 
 }
 
@@ -221,6 +228,7 @@ button:hover {
 .card:hover::before {
   width: 100%;
   cursor: pointer;
+  color: white;
 }
 
 .card i {
@@ -250,6 +258,13 @@ button:hover {
   cursor: pointer;
 }
 
+.text-hover:hover h3,
+.text-hover:hover p{
+  color: rgb(193, 133, 123); 
+}
+
+
+
 .card button:hover {
   background: #e74c3c;
 }
@@ -262,7 +277,7 @@ button:hover {
 
 #featured-works h2 {
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   color: #333;
 }
 
@@ -333,7 +348,7 @@ button:hover {
 
 #offers h2 {
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
   color: #333;
 }
 
@@ -415,7 +430,7 @@ button:hover {
 
 .choose-text h2 {
   font-size: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 16px;
   color: tomato;
 }
 
@@ -527,7 +542,7 @@ button:hover {
 
 #pricing h2 {
   font-size: 40px; 
-  margin-bottom: 40px;
+  margin-bottom: 16px;
   color: #333;
 }
 
@@ -687,7 +702,7 @@ button:hover {
 
 #team h2 {
   font-size: 40px; 
-  margin-bottom: 40px;
+  margin-bottom: 16px;
   color: #333;
 }
 
@@ -795,7 +810,7 @@ button:hover {
 
 #news h2 {
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
   color: #333;
 }
 
